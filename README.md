@@ -118,3 +118,17 @@ No utiliza una base de datos ni un sistema de usuarios.
 Las descripciones se almacenan en una sola línea.
 
 Si el archivo `tickets.txt` contiene datos inválidos o identificadores repetidos, la aplicación informa del error y no inicia la carga de las incidencias.
+
+## Git
+
+El proyecto utiliza Git para controlar las versiones.
+
+Se han realizado varios commits durante el desarrollo del proyecto para registrar los principales avances.
+
+## Resultado de las pruebas
+
+El proyecto dispone de 19 pruebas automatizadas con JUnit.
+
+Todas las pruebas pasan correctamente al ejecutar:
+
+`mvn test`
